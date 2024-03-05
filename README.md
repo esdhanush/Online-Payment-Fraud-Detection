@@ -1,15 +1,21 @@
-# Online-Payment-Fraud-Detection
-This repository contains a Python program for Online Payment Fraud Detection. In this project, we delve into the intricacies of building a fraud detection system from scratch using Python.
+# Online Fraud Detection
 
-Overview
-Online payment fraud has become increasingly prevalent with the rise of e-commerce. Detecting fraudulent transactions is crucial for businesses to protect themselves and their customers from financial losses. This project aims to provide a solution to this problem by leveraging machine learning techniques.
+## Overview
 
-Features
-Data preprocessing: The program preprocesses the input data to extract relevant features and prepare it for model training.
-Machine learning models: It includes various machine learning models such as logistic regression, decision trees, random forests, etc., for detecting fraudulent transactions.
-Evaluation: The program evaluates the performance of each model using appropriate metrics such as accuracy, precision, recall, and F1-score.
-Visualization: It provides visualizations to help understand the data distribution, model performance, and feature importance.
-Scalability: The code is designed to handle large datasets efficiently, ensuring scalability.
+This project focuses on detecting fraudulent activities in online payments using machine learning techniques. With the rise of digital transactions, detecting and preventing fraud has become increasingly crucial for ensuring the security and trustworthiness of online payment systems. By analyzing transaction data and identifying patterns associated with fraudulent behavior, the project aims to develop a robust fraud detection system.
 
-Dataset :
-https://www.kaggle.com/datasets/jainilcoder/online-payment-fraud-detection
+## Key Features
+
+- **Data Loading:** Load transaction data from a CSV file into a Pandas DataFrame.
+- **Data Exploration:** Explore the distribution of transaction types and visualize patterns using interactive charts.
+- **Data Preprocessing:** Map categorical variables to numerical values and split the dataset into training and testing sets.
+- **Model Training:** Train a Decision Tree Classifier model to detect fraudulent transactions based on transaction features.
+- **Model Evaluation:** Evaluate the model's performance using accuracy metrics on testing data to assess its effectiveness.
+- **Prediction:** Demonstrate how the trained model can predict whether new transactions are fraudulent or not.
+
+## Dependencies
+
+- pandas
+- numpy
+- plotly
+- scikit-learn
